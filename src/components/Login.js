@@ -46,7 +46,7 @@ class Login extends Component {
                 <input
                   className="input"
                   type="email"
-                  name="username"
+                  name="username" placeholder="username"
                   onChange={this.handleChange}
                 />
               </div>
