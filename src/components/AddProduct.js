@@ -74,7 +74,7 @@ class AddProduct extends Component {
                 <label className="label">Product Name: </label>
                 <input
                   className="input"
-                  type="text"
+                  type="text" placeholder="enter name"
                   name="name"
                   value={name}
                   onChange={this.handleChange}
